@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:textAlignment="center">
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="828dp"
+        android:layout_height="match_parent"
+        android:text="Large Text"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
